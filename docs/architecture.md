@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # System Architecture
 
 ## Overview
-DevOps Simulator follows a microservices architecture designed for high availability and scalability.
+DevOps Simulator follows a microservices and event-driven architecture designed for high availability, scalability, and AI-assisted automation.
 
-This document covers both **Production** and **Development** architectures.
+This document covers **Production**, **Development**, and **Experimental** environments.
 
 ## Components
 
@@ -20,6 +19,13 @@ This document covers both **Production** and **Development** architectures.
 - **Scaling**: Manual (single instance for development)  
 - **Debug**: Chrome DevTools debugger on port 9229  
 
+**Experimental**
+- **Technology**: Node.js + Express + TensorFlow.js  
+- **Ports**: 9000 (main), 9001 (metrics), 9002 (AI API)  
+- **Scaling**: AI-powered predictive auto-scaling  
+- **Intelligence**: Real-time ML inference  
+- **Message Queue**: Apache Kafka for event streaming  
+
 ### 2. Database Layer
 **Production**
 - **Database**: PostgreSQL 14  
@@ -31,6 +37,13 @@ This document covers both **Production** and **Development** architectures.
 - **Configuration**: Single instance (no replication)  
 - **Backup**: Manual backups only  
 - **Seeding**: Auto-seed with test data on startup  
+
+**Experimental**
+- **Primary**: PostgreSQL 14 cluster (5 nodes)  
+- **Cache**: Redis cluster with ML-based cache optimization  
+- **Configuration**: Multi-master replication  
+- **Backup**: Continuous backup with geo-redundancy  
+- **AI Features**: Query optimization, index suggestions  
 
 ### 3. Monitoring System
 **Production**
@@ -44,15 +57,53 @@ This document covers both **Production** and **Development** architectures.
 - **Alerts**: Console warnings  
 - **Dashboard**: In-development web dashboard  
 
-### 4. Container Orchestration (Development Only)
-- **Tool**: Docker Compose (local)
-- **Services**: App, Database, Redis cache
-- **Volume Mounts**: Code directory for hot reload
+**Experimental**
+- **Tool**: Prometheus + Thanos (long-term storage)  
+- **Logs**: ELK Stack + AI log analysis  
+- **AI Monitoring**: Predictive alerts and anomaly detection  
 
-### 5. Authentication System (Beta - Development)
-- **Method**: OAuth2 + JWT
-- **Providers**: Google, GitHub
-- **Sessions**: Redis-based session storage
+### 4. Container Orchestration
+**Production**
+- **Method**: Rolling updates  
+- **Zero-downtime**: Yes  
+- **Rollback**: Automated on failure  
+
+**Development**
+- **Tool**: Docker Compose (local)  
+- **Services**: App, Database, Redis cache  
+- **Volume Mounts**: Code directory for hot reload  
+- **Rollback**: Git checkout previous commit  
+
+**Experimental**
+- **Orchestrator**: Kubernetes with custom CRDs  
+- **Supported Clouds**: AWS, Azure, GCP, DigitalOcean  
+- **Load Balancing**: Global anycast with GeoDNS  
+- **Failover**: Automatic cross-cloud failover  
+
+### 5. Authentication System
+**Production**
+- **Method**: OAuth2 + JWT  
+- **Providers**: Google, GitHub  
+- **Sessions**: Encrypted session tokens  
+
+**Development**
+- **Method**: OAuth2 + JWT  
+- **Providers**: Google, GitHub  
+- **Sessions**: Redis-based session storage  
+
+**Experimental**
+- **Method**: Federated identity  
+- **Security**: AI-based anomaly detection for sign-ins  
+
+### 6. AI/ML Pipeline (Experimental Only)
+- **Frameworks**: TensorFlow, PyTorch, Scikit-learn  
+- **Models**:  
+  - Anomaly detection (LSTM)  
+  - Load prediction (XGBoost)  
+  - Auto-scaling optimizer (Reinforcement Learning)  
+- **Training**: Continuous online learning  
+- **Inference**: Real-time predictions (<50ms latency)  
+- **Deployment**: Auto-updates model versions seamlessly  
 
 ## Deployment Strategy
 **Production**
@@ -64,6 +115,11 @@ This document covers both **Production** and **Development** architectures.
 - **Method**: Docker Compose hot reload  
 - **Zero-downtime**: Not applicable  
 - **Rollback**: Git checkout previous commit  
+
+**Experimental**
+- **Method**: Canary releases with AI analysis  
+- **Monitoring**: Predictive performance tracking  
+- **Rollback**: Automatic rollback on anomaly detection  
 
 ## Development Workflow
 1. Make code changes  
@@ -79,56 +135,23 @@ This document covers both **Production** and **Development** architectures.
 - Regular security audits  
 
 **Development**
-- SSL/TLS disabled for local use  
+- SSL/TLS disabled for local development  
 - Database credentials in plain text (dev only)  
 - CORS enabled for all origins  
 - Debug endpoints exposed  
 
-## Experimental Features (Development)
+**Experimental**
+- Zero-trust enforcement  
+- AES-256 encryption  
+- AI-based intrusion detection  
+- Continuous audit logging  
+
+
+## Experimental Features
 ⚠️ **Warning:** The following features are experimental:
 - Multi-cloud deployment  
 - AI-powered log analysis  
 - Automatic rollback on anomaly detection  
-=======
-# System Architecture - Experimental Build
-
-## Overview
-DevOps Simulator follows an **event-driven microservices architecture** with AI/ML integration, designed for multi-cloud deployments and chaos engineering.
-
-**⚠️ EXPERIMENTAL**: This architecture includes untested cutting-edge features.
-
-## Core Components
-
-### 1. Application Server (AI-Enhanced)
-- **Technology**: Node.js + Express + TensorFlow.js
-- **Port**: 9000 (main), 9001 (metrics), 9002 (AI API)
-- **Scaling**: AI-powered predictive auto-scaling
-- **Intelligence**: Real-time ML inference
-- **Message Queue**: Apache Kafka for event streaming
-
-### 2. Distributed Database Layer
-- **Primary**: PostgreSQL 14 cluster (5 nodes)
-- **Cache**: Redis cluster with ML-based cache optimization
-- **Configuration**: Multi-master replication
-- **Backup**: Continuous backup with geo-redundancy
-- **AI Features**: Query optimization, index suggestions
-
-### 3. AI/ML Pipeline
-- **Framework**: TensorFlow, PyTorch, Scikit-learn
-- **Models**: 
-  - Anomaly detection (LSTM neural network)
-  - Load prediction (XGBoost)
-  - Auto-scaling optimizer (Reinforcement Learning)
-- **Training**: Continuous online learning
-- **Inference**: Real-time predictions (<50ms latency)
-
-### 4. Multi-Cloud Orchestration
-- **Supported Clouds**: AWS, Azure, GCP, DigitalOcean
-- **Orchestrator**: Kubernetes with custom CRDs
-- **Load Balancing**: Global anycast with GeoDNS
-- **Failover**: Automatic cross-cloud failover
-
-### 5. Advanced Monitoring & Observability
-- **Metrics**: Prometheus + Thanos (long-term storage)
-- **Logs**: ELK Stack + AI log analysis
->>>>>>> conflict-simulator
+- Predictive scaling and AI monitoring  
+- ML-based cache optimization  
+- Real-time adaptive auto-scaling  
