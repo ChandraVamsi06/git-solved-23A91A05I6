@@ -2,7 +2,7 @@
 
 ## Student Information
 - Name: Sana Chandra Vamsi Teja Venkata Rayudu
-- Student ID: 23A91A05I^
+- Student ID: 23A91A05I6
 - Repository: https://github.com/ChandraVamsi06/git-solved-23A91A05I6
 - Date Started: 30/10/2025
 - Date Completed: 30/10/2025
