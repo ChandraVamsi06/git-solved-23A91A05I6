@@ -1,21 +1,21 @@
-7020e14 docs: Add final project artifacts
-6706f5e Added git-graph, branches, tags
-7a3f556 Added GIT_JOURNEY.md
-bd86b63 Added GIT_JOURNEY.md
-92f8add Merge pull request #2 from ChandraVamsi06/feature/another-feature
-ba04702 feat: Add test feature
-1153697 docs: Update README
-fd7c118 feat: Add new feature
-f5e603a docs: Add FAQ section
-e99c4a0 Added CHANGELOG.md
-87d1dcc Resolved merge coflicts between main and conflict-simulator
-290a97d Added checkpoint3 screenshot
-9a31ba0 merge: Resolve all conflicts between main and conflict-simulator branches
-47d9569 checkpoint2: final merge resolutions and screenshot
-f10811d merge: Resolve all conflicts between main and dev branches
-5e412d1 Add checkpoint screenshot
-d3dd9b2 updating conflict-simulator
-02011a5 updating dev
-0312c6f updating main
-fadfd24 Revise README for DevOps Simulator project
-ae630eb Initial commit
+- 7020e14: docs: Add final project artifacts
+- 6706f5e: Added git-graph, branches, tags
+- 7a3f556: Added GIT_JOURNEY.md
+- bd86b63: Added GIT_JOURNEY.md
+- 92f8add: Merge pull request #2 from ChandraVamsi06/feature/another-feature
+- ba04702: feat: Add test feature
+- 1153697: docs: Update README
+- fd7c118: feat: Add new feature
+- f5e603a: docs: Add FAQ section
+- e99c4a0: Added CHANGELOG.md
+- 87d1dcc: Resolved merge coflicts between main and conflict-simulator
+- 290a97d: Added checkpoint3 screenshot
+- 9a31ba0: merge: Resolve all conflicts between main and conflict-simulator branches
+- 47d9569: checkpoint2: final merge resolutions and screenshot
+- f10811d: merge: Resolve all conflicts between main and dev branches
+- 5e412d1: Add checkpoint screenshot
+- d3dd9b2: updating conflict-simulator
+- 02011a5: updating dev
+- 0312c6f: updating main
+- fadfd24: Revise README for DevOps Simulator project
+- ae630eb:   Initial commit
