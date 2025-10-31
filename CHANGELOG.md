@@ -1,21 +1,23 @@
-- 7020e14: docs: Add final project artifacts
-- 6706f5e: Added git-graph, branches, tags
-- 7a3f556: Added GIT_JOURNEY.md
-- bd86b63: Added GIT_JOURNEY.md
-- 92f8add: Merge pull request #2 from ChandraVamsi06/feature/another-feature
-- ba04702: feat: Add test feature
-- 1153697: docs: Update README
-- fd7c118: feat: Add new feature
-- f5e603a: docs: Add FAQ section
-- e99c4a0: Added CHANGELOG.md
-- 87d1dcc: Resolved merge coflicts between main and conflict-simulator
-- 290a97d: Added checkpoint3 screenshot
-- 9a31ba0: merge: Resolve all conflicts between main and conflict-simulator branches
-- 47d9569: checkpoint2: final merge resolutions and screenshot
-- f10811d: merge: Resolve all conflicts between main and dev branches
-- 5e412d1: Add checkpoint screenshot
-- d3dd9b2: updating conflict-simulator
-- 02011a5: updating dev
-- 0312c6f: updating main
-- fadfd24: Revise README for DevOps Simulator project
-- ae630eb:   Initial commit
+- 0c72c8c: Updated CHANGELOG.md (Chandra Vamsi, 5 hours ago)
+- cb7d84f: Updated CHANGELOG.md (Chandra Vamsi, 5 hours ago)
+- 7020e14: docs: Add final project artifacts (Chandra Vamsi, 22 hours ago)
+- 6706f5e: Added git-graph, branches, tags (Chandra Vamsi, 22 hours ago)
+- 7a3f556: Added GIT_JOURNEY.md (Chandra Vamsi, 22 hours ago)
+- bd86b63: Added GIT_JOURNEY.md (Chandra Vamsi, 23 hours ago)
+- 92f8add: Merge pull request #2 from ChandraVamsi06/feature/another-feature (Sana Chandra Vamsi, 32 hours ago)
+- ba04702: feat: Add test feature (Chandra Vamsi, 33 hours ago)
+- 1153697: docs: Update README (Chandra Vamsi, 32 hours ago)
+- fd7c118: feat: Add new feature (Chandra Vamsi, 33 hours ago)
+- f5e603a: docs: Add FAQ section (Chandra Vamsi, 2 days ago)
+- e99c4a0: Added CHANGELOG.md (Chandra Vamsi, 2 days ago)
+- 87d1dcc: Resolved merge coflicts between main and conflict-simulator (Chandra Vamsi, 2 days ago)
+- 290a97d: Added checkpoint3 screenshot (Chandra Vamsi, 2 days ago)
+- 9a31ba0: merge: Resolve all conflicts between main and conflict-simulator branches (Chandra Vamsi, 2 days ago)
+- 47d9569: checkpoint2: final merge resolutions and screenshot (Chandra Vamsi, 2 days ago)
+- f10811d: merge: Resolve all conflicts between main and dev branches (Chandra Vamsi, 2 days ago)
+- 5e412d1: Add checkpoint screenshot (Chandra Vamsi, 3 days ago)
+- d3dd9b2: updating conflict-simulator (Hanu Gupta, 8 days ago)
+- 02011a5: updating dev (Hanu Gupta, 8 days ago)
+- 0312c6f: updating main (Hanu Gupta, 8 days ago)
+- fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 8 days ago)
+- ae630eb: Initial commit (Hanu Gupta, 8 days ago)
